@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
-                sh 'echo guten tag'
+                sh 'echo guten abend'
             }
         }
         /*
