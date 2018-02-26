@@ -12,6 +12,7 @@ pipeline {
                 sh 'echo guten tag'
             }
         }
+        /*
         stage('Test') {
             steps {
                 sh 'mvn test'
@@ -22,7 +23,6 @@ pipeline {
                 }
             }
         }
-        /*
         stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
