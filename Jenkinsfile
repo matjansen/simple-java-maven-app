@@ -9,7 +9,7 @@ pipeline {
          pollSCM('* * * * *')
     }
     stages {
-         stage('Build') {
+         stage('Active Server') {
              steps {
                  sh 'mvn -B -DskipTests clean package'
              }
